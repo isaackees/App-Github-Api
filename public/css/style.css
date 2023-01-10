@@ -1,0 +1,81 @@
+:root {
+    --Light-green: #7ed56f;
+    --Medium-green: #55c57a;
+    --Dark-green: #28b485;
+    --light-grey: #f2f2f2;
+    --medium-gray: #777;
+}
+html {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-size: 10px;
+}
+.container{
+    background-color: #f2f2f2;
+    color: #777;
+}
+
+.head-container{
+    display: flex;
+    background-color: var(--light-grey);
+}
+.side-head {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-img {
+    width: 20rem;
+    border-radius: 10rem;
+}
+.heading-container {
+    margin: auto;
+}
+.heading {
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 2rem;
+}
+.server {
+    font-size: 2rem;
+}
+.github-btn,
+.github-btn:visited{
+    border: none;
+    background-color: var(--Dark-green);
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 1rem;
+    box-shadow: 0 2px ;
+    border-radius: 2rem;
+    margin: 2rem;
+    cursor: pointer;
+    transition: all .2s;
+    
+}
+
+.github-btn:hover {
+    box-shadow: 0 .7rem 1rem rgba(0, 0, 0, 0.811);
+    background-color: var(--Medium-green);
+}
+
+.github-btn a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.repos-section {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.repos {
+    width: 5rem;
+    background-color: #fff;
+}
